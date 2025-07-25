@@ -104,40 +104,7 @@
     margin-top: 10px;
     cursor: pointer; 
 }
-body {
-  margin: 0;
-  background: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 
-.flower-container {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 
-.flower {
-  width: 100px;
-  height: 100px;
-  background: radial-gradient(circle at center, pink 40%, red 70%);
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s;
-}
-
-.flower:hover {
-  transform: scale(1.1);
-}
-
-.flower1 { background: radial-gradient(circle at center, #ffb6c1, #ff69b4); }
-.flower2 { background: radial-gradient(circle at center, #ffa07a, #ff4500); }
-.flower3 { background: radial-gradient(circle at center, #98fb98, #32cd32); }
-.flower4 { background: radial-gradient(circle at center, #add8e6, #0000cd); }
-.flower5 { background: radial-gradient(circle at center, #dda0dd, #8a2be2); }
 
 
